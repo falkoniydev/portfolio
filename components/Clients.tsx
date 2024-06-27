@@ -33,7 +33,9 @@ const Clients = () => {
 									alt={company.name}
 									className="md:w-10 w-5"
 								/>
-								<strong className="text-[36px]">{company.name}</strong>
+								<strong className="text-[36px] md:text-[24px] sm:text-[12px]">
+									{company.name}
+								</strong>
 							</div>
 						</React.Fragment>
 					))}

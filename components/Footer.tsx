@@ -24,7 +24,7 @@ const Footer = () => {
 					Reach out to me today and let&apos;s discuss how I can help you
 					achieve your goals.
 				</p>
-				<div className="flex items-center gap-5">
+				<div className="flex items-center gap-5 flex-wrap">
 					<a href="mailto:falkoniy@gmail.com">
 						<MagicButton
 							title="Email: falkoniy@gmail.com"
